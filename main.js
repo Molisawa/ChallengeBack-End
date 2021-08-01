@@ -67,7 +67,7 @@ app.post("/send-form", function(req, res) {
         from: "Remitente",
         to: email,
         subject: "Que tal! Por favor llena este formulario",
-        text: "http://localhost:3000/form"
+        text: "http://localhost:4200/form"
     };   
     
     transport.sendMail(mailOptions, (error, info) => {
